@@ -1,0 +1,16 @@
+<mat-card class="container">
+  <mat-card-title>Users List</mat-card-title>
+  <mat-card-content>
+    <mat-chip-list aria-label="User List">
+      <mat-chip
+        *ngFor="let user of userList"
+        (removed)="remove(user)"
+        [class]="user.entry.enabled ? 'green' : null"
+      >
+        {{ user.entry.firstName }} {{ user.entry.lastName }}
+
+        <mat-icon matChipRemove *ngIf="user.entry.enabled">cancel</mat-icon>
+      </mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+</mat-card>
