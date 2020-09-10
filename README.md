@@ -1,10 +1,18 @@
 # UserList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This project was generated with [Angular CLI] version 10.1.0.
+
+## Download Code
+
+Download or clone the source code to your machine.
+
+## Node Modules
+
+Run `npm install` to install the dependencies in the local node modules folder.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will now run in the browser.
 
 ## Build
 
